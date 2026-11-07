@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%">
+  <defs>
+    <!-- Filter for crisp drop shadows if needed -->
+    <filter id="logoShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="0" flood-color="#000000" flood-opacity="1" />
+    </filter>
+  </defs>
+
+  <!-- Pitch Black Oval Background with High-Contrast White / Gold Stroke -->
+  <ellipse 
+    cx="250" 
+    cy="160" 
+    rx="240" 
+    ry="145" 
+    fill="#000000" 
+    stroke="#ffe600" 
+    stroke-width="18" 
+  />
+
+  <!-- Main Black Graphic Container for Text & Elements -->
+  <g transform="skewX(-6) translate(15, 0)">
+    
+    <!-- === QUICK TEXT (TOP) === -->
+    <!-- Solid Gold Outline Base for QUICK -->
+    <g fill="#ffe600">
+      <!-- Q Base -->
+      <path d="M 65 145 C 50 145 40 135 40 115 C 40 90 55 65 85 65 C 115 65 130 90 130 115 C 130 125 125 135 118 140 L 126 156 C 128 162 125 170 116 174 C 105 178 95 174 92 165 C 90 160 92 154 96 148 L 94 145 C 85 145 75 145 65 145 Z" />
+      
+      <!-- U Base -->
+      <path d="M 132 68 L 160 68 L 152 118 C 150 130 156 138 168 138 C 180 138 188 130 190 118 L 198 68 L 226 68 L 216 122 C 210 145 192 152 168 152 C 142 152 126 142 122 122 Z" />
+
+      <!-- I Base -->
+      <path d="M 230 68 L 258 68 L 246 148 L 218 148 Z" />
+
+      <!-- C Base -->
+      <path d="M 315 72 C 302 66 285 65 270 70 C 248 78 238 98 242 122 C 246 142 262 152 288 152 C 305 152 320 146 328 138 L 316 118 C 308 124 298 128 288 128 C 275 128 268 120 266 112 C 264 100 270 90 284 90 C 294 90 304 94 310 98 Z" />
+
+      <!-- K Base -->
+      <path d="M 326 68 L 354 68 L 347 106 L 382 68 L 418 68 L 372 112 L 412 148 L 376 148 L 344 116 L 338 148 L 312 148 Z" />
+    </g>
+
+    <!-- Inner White Core for QUICK with Stylized Cutouts -->
+    <g fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linejoin="miter">
+      <!-- Q Inner White + Liquid Drop Tail -->
+      <path d="M 72 136 C 62 136 54 128 54 114 C 54 94 66 75 88 75 C 108 75 118 94 118 114 C 118 124 114 131 106 135 L 115 152 C 116 156 112 162 106 163 C 100 164 96 160 95 155 C 93 147 98 142 101 137 L 98 136 C 88 136 80 136 72 136 Z M 87 90 C 78 90 73 100 73 112 C 73 121 78 126 84 126 C 93 126 98 116 98 104 C 98 95 93 90 87 90 Z" />
+      
+      <!-- Liquid Droplet Highlight -->
+      <ellipse cx="106" cy="158" rx="2.5" ry="4" fill="#ffe600" stroke="none" />
+
+      <!-- U Inner White -->
+      <path d="M 140 76 L 154 76 L 148 116 C 146 124 152 130 162 130 C 172 130 178 124 180 116 L 186 76 L 200 76 L 194 118 C 190 136 178 142 162 142 C 144 142 134 134 132 118 Z" />
+
+      <!-- I Inner White with action cut -->
+      <path d="M 218 76 L 238 76 L 230 140 L 210 140 Z" />
+
+      <!-- C Inner White -->
+      <path d="M 302 82 C 292 76 280 75 268 78 C 252 84 245 100 248 118 C 251 132 262 142 280 142 C 294 142 306 136 312 130 L 306 120 C 298 124 290 128 280 128 C 270 128 264 122 262 114 C 260 102 265 92 278 92 C 286 92 294 96 300 100 Z" />
+
+      <!-- K Inner White with dynamic cuts -->
+      <path d="M 334 76 L 348 76 L 342 108 L 372 76 L 398 76 L 362 112 L 394 140 L 368 140 L 342 114 L 338 140 L 324 140 Z" />
+    </g>
+
+    <!-- === SIP TEXT (BOTTOM) === -->
+    <!-- Gold Base for SIP -->
+    <g fill="#ffe600">
+      <!-- S Base -->
+      <path d="M 120 238 C 135 244 155 248 175 248 C 210 248 230 232 226 208 C 224 192 208 184 188 178 C 172 174 164 170 165 162 C 166 156 174 150 186 150 C 200 150 214 156 222 162 L 234 140 C 220 132 202 128 185 128 C 152 128 134 145 136 168 C 138 184 152 192 174 198 C 190 202 198 206 196 215 C 194 222 186 228 172 228 C 155 228 138 220 128 212 Z" />
+
+      <!-- Straw I Base (angled tube) -->
+      <path d="M 235 245 L 268 245 L 292 165 L 324 156 L 316 130 L 272 142 L 246 226 L 222 245 Z" />
+
+      <!-- P Base -->
+      <path d="M 276 245 L 305 245 L 314 195 L 342 195 C 375 195 392 178 395 155 C 398 134 384 122 352 122 L 298 122 Z" />
+    </g>
+
+    <!-- Inner White Core for SIP -->
+    <g fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linejoin="miter">
+      <!-- S Inner White -->
+      <path d="M 130 230 C 142 236 158 240 174 240 C 200 240 214 228 212 212 C 210 200 198 194 180 188 C 164 184 152 178 154 166 C 156 158 165 148 184 148 C 196 148 208 152 216 158 L 224 145 C 212 138 198 136 184 136 C 158 136 144 148 146 166 C 148 178 160 186 178 192 C 194 196 202 202 200 212 C 198 218 190 224 174 224 C 158 224 145 218 138 212 Z" />
+
+      <!-- Straw I Inner (Bent Drink Straw with Ribs) -->
+      <path d="M 242 238 L 258 238 L 282 162 L 312 153 L 308 140 L 274 150 L 252 225 Z" />
+      <!-- Straw flexible bend ridges -->
+      <line x1="275" y1="156" x2="284" y2="160" stroke="#000000" stroke-width="4" />
+      <line x1="282" y1="154" x2="291" y2="158" stroke="#000000" stroke-width="4" />
+
+      <!-- P Inner White -->
+      <path d="M 288 238 L 302 238 L 310 188 L 340 188 C 365 188 378 174 380 156 C 382 140 372 130 348 130 L 308 130 Z M 315 174 L 322 142 L 344 142 C 358 142 366 148 364 158 C 362 168 354 174 340 174 Z" />
+    </g>
+
+    <!-- Speed / Energy accents in Electric Yellow -->
+    <polygon points="55,100 35,108 52,112" fill="#ffe600" />
+    <polygon points="415,102 435,95 418,110" fill="#ffe600" />
+  </g>
+</svg>

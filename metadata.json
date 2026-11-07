@@ -1,0 +1,6 @@
+{
+  "name": "HOLY Drinks UK | Zero Sugar Energy, Iced Tea & Hydration",
+  "description": "Cambodia store for QuickSip Energy, QuickSip Iced Tea, and QuickSip Hydration. Zero sugar, natural caffeine, real tea extracts, and starter sets with shakers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

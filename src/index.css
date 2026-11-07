@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0b0d14;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, .font-heading, .font-holy {
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+  }
+}
+
+/* Persona 5 Theme Custom Utilities (Blue, Green, Yellow, White, Black) */
+:root {
+  --p5-blue: #0055ff;
+  --p5-green: #10b981;
+  --p5-yellow: #ffe600;
+  --p5-white: #ffffff;
+  --p5-dark: #0b0d14;
+}
+
+/* Hard Comic Shadows characteristic of Persona 5 */
+.shadow-p5-xs {
+  box-shadow: 2px 2px 0px #000000;
+}
+
+.shadow-p5-sm {
+  box-shadow: 3px 3px 0px #000000;
+}
+
+.shadow-p5 {
+  box-shadow: 5px 5px 0px #000000;
+}
+
+.shadow-p5-lg {
+  box-shadow: 8px 8px 0px #000000;
+}
+
+.shadow-p5-yellow {
+  box-shadow: 5px 5px 0px #ffe600;
+}
+
+.shadow-p5-green {
+  box-shadow: 5px 5px 0px #10b981;
+}
+
+.shadow-p5-blue {
+  box-shadow: 5px 5px 0px #0055ff;
+}
+
+/* Persona 5 Halftone Comic Dot Pattern */
+.bg-p5-dots {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.12) 1.5px, transparent 1.5px);
+  background-size: 14px 14px;
+}
+
+.bg-p5-dots-dense {
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.18) 1.5px, transparent 1.5px);
+  background-size: 10px 10px;
+}
+
+.bg-p5-dots-blue {
+  background-image: radial-gradient(circle, rgba(0, 85, 255, 0.25) 1.5px, transparent 1.5px);
+  background-size: 12px 12px;
+}
+
+.bg-p5-dots-yellow {
+  background-image: radial-gradient(circle, rgba(255, 230, 0, 0.3) 1.5px, transparent 1.5px);
+  background-size: 12px 12px;
+}
+
+/* Skewed Polygon Angle Helpers */
+.p5-skew {
+  transform: skewX(-8deg);
+}
+
+.p5-skew-reverse {
+  transform: skewX(8deg);
+}
+
+.p5-card-blue {
+  background-color: #0055ff;
+  border: 3px solid #000000;
+  box-shadow: 5px 5px 0px #000000;
+}
+
+.p5-card-green {
+  background-color: #10b981;
+  border: 3px solid #000000;
+  box-shadow: 5px 5px 0px #000000;
+}
+
+.p5-card-yellow {
+  background-color: #ffe600;
+  border: 3px solid #000000;
+  box-shadow: 5px 5px 0px #000000;
+  color: #000000;
+}
+
+.p5-card-white {
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  box-shadow: 5px 5px 0px #000000;
+  color: #000000;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 24s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Stylized Comic Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0d14;
+}
+::-webkit-scrollbar-thumb {
+  background: #0055ff;
+  border: 2px solid #000000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffe600;
+}
