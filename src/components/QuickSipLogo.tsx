@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import quickSipLogoImg from '../assets/images/regenerated_image_1794024924986.png';
 
 interface QuickSipLogoProps {
   className?: string;
@@ -13,7 +14,7 @@ export const QuickSipLogo: React.FC<QuickSipLogoProps> = ({
   variant = 'badge',
   theme = 'black',
 }) => {
-  const defaultSrc = theme === 'black' ? '/quicksip-logo-black.svg' : '/quicksip-logo.svg';
+  const defaultSrc = quickSipLogoImg || (theme === 'black' ? '/quicksip-logo-black.svg' : '/quicksip-logo.svg');
   const [imgSrc, setImgSrc] = useState(defaultSrc);
 
   const sizeMap = {
